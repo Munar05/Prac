@@ -16,4 +16,5 @@ jobs:
         python-version: '3.12.7'
 
     - name: Run Python Script
-      run: .github/sps.py
+      run: python .github/sps.py  
+
